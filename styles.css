@@ -1,0 +1,40 @@
+/* ボディの背景色 */
+/* body {
+  background-color: #ffffe0 !important;
+}
+.Box*{
+  background-color: #ffffe0;
+} */
+/* ヘッダーの背景色 */
+/* header {
+  background-color: #fffacd !important;
+} */
+
+/* ボタンの色 */
+/* button, .btn {
+  background-color: #f5f5f5 !important;
+  color: #000000 !important;
+} */
+
+/* リンクの色 */
+/* a {
+  color: #000000 !important;
+} */
+
+.State--open{
+  background-color: #ffd700!important;
+  color: #000000!important;
+  box-shadow: none!important;
+  border: none!important;
+  border-radius: 3px!important;
+  
+}
+
+.State--close{
+  background-color: #696969;
+  color: #ffffff;
+  box-shadow: none!important;
+  border: none!important;
+  border-radius: 3px!important;
+  
+}

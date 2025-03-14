@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Color Customizer",
+  "description": "Customize GitHub's color scheme.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
