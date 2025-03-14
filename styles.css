@@ -21,20 +21,48 @@
   color: #000000 !important;
 } */
 
+.State{
+  background-color: #fff!important;
+  color: #000000!important;
+  border: none!important;
+  border-radius: 3px!important;
+}
+
 .State--open{
   background-color: #ffd700!important;
   color: #000000!important;
   box-shadow: none!important;
   border: none!important;
   border-radius: 3px!important;
-  
 }
 
-.State--close{
-  background-color: #696969;
-  color: #ffffff;
+.State--closed{
+  background-color: #696969!important;
+  color: #ffffff!important;
   box-shadow: none!important;
   border: none!important;
   border-radius: 3px!important;
-  
+}
+
+.State--merged{
+  background-color: #c6c6ff!important;
+  color: #000000!important;
+  box-shadow: none!important;
+  border: none!important;
+  border-radius: 3px!important;
+}
+
+.commit-ref{
+  background-color: #ccffff!important;
+  border-radius: 2px!important;
+}
+
+:is(.UnderlineNav-item.selected,.UnderlineNav-item[role=tab][aria-selected=true],.UnderlineNav-item[aria-current]:not([aria-current=false])):after{
+  background-color: red!important;
+  height: 3px!important;
+}
+
+.AppHeader{
+  background-color: #dcdcdc;
+
 }
